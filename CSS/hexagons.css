@@ -1,0 +1,101 @@
+ /*Hexagons main page style */
+
+.hex img {
+     width: 200px;
+}
+
+.hex {
+     cursor: pointer;
+     position: absolute;
+}
+
+ #hexagons {
+     width: 695px;
+     height: 363px;
+     position: relative;
+     overflow: hidden;
+     margin-left: auto;
+     margin-right: auto;
+     top: 100px;
+
+ }
+
+ #hex-one {
+     top: 95px;
+     left: 0;
+ }
+
+ #hex-two {
+     top: 0;
+     left: 165px;
+ }
+
+ #hex-three {
+     top: 95px;
+     left: 330px;
+ }
+
+ #hex-four {
+     top: 0;
+     left: 495px;
+ }
+
+ #hex-five {
+     top: 190px;
+     left: 495px;
+ }
+
+
+ /* Responsive styles */
+
+
+ @media only screen
+    and (min-device-width : 320px)
+     and (max-device-width : 568px) {
+
+     .hex {
+         width: 50%;
+     }
+     .hex img {
+         width: 100%;
+     }
+
+     #hexagons {
+         width: 80%;
+         height: 90%;
+         position: relative;
+         overflow: hidden;
+         margin: 0 auto;
+         top: 50%;
+         transform: translateY(-50%);
+     }
+
+     #hex-one {
+         top: 0;
+         left: 0;
+     }
+
+     #hex-two {
+         top: 14%;
+         left: initial;
+         right: 0;
+     }
+
+     #hex-three {
+         top: 28%;
+         left: 0;
+     }
+
+     #hex-four {
+         top: 42%;
+         left: initial;
+         right: 0;
+     }
+
+     #hex-five {
+         top: 56%;
+         left: 0;
+     }
+
+ }
+	

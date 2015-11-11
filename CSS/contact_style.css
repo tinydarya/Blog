@@ -1,0 +1,60 @@
+/* Contact div style */
+
+#contact {
+    background-color: #f4e0e9;
+    width: 100%;
+    height: 400px;
+}
+
+/* Text container style */
+
+#container {
+    margin-left: 30px;
+}
+
+/* Heading style */
+
+h1 {
+    font-family: 'Poiret One';
+    margin-top: 160px;
+    font-size: 35px;
+}
+
+/* Text style */
+
+#p-text {
+    font-size: 20px;
+}
+
+/* Email style */
+
+#email {
+    color: black;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#email:hover {
+    background-color: white;
+}
+
+/* Footer style */
+
+#footer {
+    position: absolute;
+}
+
+#cont {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+
+#footer {
+    width:100%;
+    bottom:0;
+    left:0;
+    line-height: 1px;
+
+}

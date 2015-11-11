@@ -1,0 +1,97 @@
+/* Body style */
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* Input form style */
+
+#input-form {
+    margin-top: 145px;
+    float: left;
+}
+
+#form {
+    margin-left: 30px;
+}
+
+label {
+    cursor: default;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Profile picture style */
+
+#picture {
+    text-align: center;
+    margin-top: 165px;
+}
+
+
+/* Upload button style */
+
+#upload-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    font-family: 'Poiret One';
+    font-size: 15px;
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    background-color: white;
+    margin: 30px;
+}
+
+#upload-button:hover {
+    background-color: #C8A2C9;
+    color: white;
+}
+
+/* Save button style */
+
+#save-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    font-family: 'Poiret One';
+    font-size: 15px;
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    background-color: #c0c0c0;
+    margin-top: 30px;
+}
+
+#container {
+    text-align: center;
+}
+
+#save-button:hover {
+    background-color: #fcb2b5;
+    color: white;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    #picture {
+        float: none;
+    }
+
+    #input-form {
+        margin-top: 50px;
+        padding-left: 0;
+    }
+
+    .small-6 {
+        width: 100%;
+    }
+}

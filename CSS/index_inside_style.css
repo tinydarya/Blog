@@ -1,0 +1,55 @@
+#wrapper {
+    margin-top: 140px;
+}
+
+
+/* Text style */
+
+.pages {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* Pictures style */
+
+.picture {
+    width: 150px;
+    margin: 15px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Upload buttons style */
+
+.upload-button {
+    font-family: "Poiret One";
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px !important;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 3%;
+    margin-top: 5%;
+    font-size: 17px;
+    padding: 8px 10px 8px 10px;
+}
+
+.upload-button:hover {
+    background-color: #C8A2C9;
+    border: 1px solid #C8A2C9;
+    color: white;
+}
+
+.upload-button:focus {
+    background-color: #C8A2C9;
+    border: 1px solid #C8A2C9;
+    color: white;
+}
+
+
+
+

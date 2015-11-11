@@ -1,0 +1,311 @@
+/* Date and comments style */
+
+#main-section {
+    margin-top: 130px;
+}
+
+.date-comments {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 10%;
+}
+
+.left {
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.comments {
+    cursor: pointer;
+}
+
+.number {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    /*text-transform: uppercase;*/
+}
+
+.text {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    /*text-transform: uppercase;*/
+}
+
+/* Post div style */
+
+.post {
+    margin-bottom: 150px;
+}
+
+.post-body {
+    margin: 0;
+    padding: 0;
+}
+
+.post-main {
+    margin: 0;
+    padding: 0;
+}
+
+/* Post title style*/
+
+h1 {
+    font-size: 25px;
+    font-family: "Poiret One";
+    margin: 20px 0;
+}
+
+h1:hover {
+    color: #C8A2C9;
+}
+
+
+/* Post main text style */
+
+.main-text {
+    margin-top: 40px;
+    font-size: 17px;
+}
+
+/* Post main picture style */
+.main-pic {
+    margin-top: 15px;
+    width: 70%;
+}
+
+/* Post extra images style */
+
+.extra-img {
+    padding: 10px 10px 10px 0;
+    width: 70%;
+}
+
+/* Hashtags style */
+
+.tag {
+    margin-top: 10px;
+    padding: 5px 10px;
+    display: inline;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.hashtags {
+    margin-top: 15px;
+}
+
+.tag:hover {
+    background-color: #C8A2C9;
+    color: white;
+}
+
+/* Comments form style */
+
+#com-form {
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #ebebeb;
+}
+
+#form {
+    padding-left: 180px;
+}
+
+input.input {
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+    display: inline-block;
+    height: 100%;
+    background-color: #fbfbfb;
+}
+
+textarea.input {
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+    display: inline-block;
+    height: 100%;
+}
+
+label {
+    font-size: 20px;
+    cursor: default;
+}
+
+/* Post a comment button style */
+
+#button {
+    background-color: #fbfbfb;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    font-family: 'Poiret One';
+    font-size: 15px;
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+}
+
+#button:hover {
+    background-color: #C8A2C9;
+    color: white;
+}
+
+/* Calendar style */
+
+/*#calendar {*/
+    /*position: absolute;*/
+    /*right: 0;*/
+/*}*/
+
+/*#calendar>table {*/
+    /*margin: 1.25rem;*/
+/*}*/
+
+/*table thead tr th, table tfoot tr th, table tfoot tr td, table tbody tr th, table tbody tr td, table tr td {*/
+    /*display: table-cell;*/
+
+/*}*/
+
+/*table caption {*/
+    /*padding: 5px;*/
+    /*background: #f5f5f5;*/
+    /*border: 1px solid #dddddd;*/
+    /*margin-bottom: 3px;*/
+/*}*/
+
+/* Post title style */
+
+.post-title form {
+    line-height: 49px;
+}
+
+/* Arhive link */
+
+#more {
+    text-align: center;
+}
+
+#archive-link {
+    color:black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#archive-link:hover {
+    color: white;
+    background-color: #C8A2C9;
+    border: 1px solid #C8A2C9;
+}
+
+/* Existing comments */
+
+button.comment-delete-btn {
+    background-color: #da374a;
+    font-family: Poiret One;
+    padding: 10px;
+    float: right;
+}
+
+.comment {
+    border: 3px solid #ebebeb;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#com-name {
+    font-size: 22px;
+    margin: 0;
+    margin-left: 30px;
+}
+
+#com-date {
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+#com-email {
+    margin-left: 30px;
+    color: #999999;
+}
+
+#com-text {
+
+}
+
+
+#footer {
+    width:100%;
+    bottom:0;
+    left:0;
+    line-height: 1px;
+
+}
+
+
+/* Responsive styles */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+    .date-comments {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        width: 100%;
+    }
+
+    .main-pic {
+        margin-top: 15px;
+        max-width: 200px;
+    }
+
+    .extra-img {
+        padding: 10px 10px 10px 0;
+        max-width: 200px;
+    }
+
+    .post-body {
+        margin-left: -50px;
+    }
+
+    .edit-btn {
+        margin-left: 15px;
+    }
+
+    #form {
+        padding: 20px 40px;
+        width: 100%;
+    }
+
+    #com-form {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    input.input {
+        width: 100%;
+    }
+
+    textarea.input {
+        width: 100%;
+    }
+}
+
+
+
+
+
+

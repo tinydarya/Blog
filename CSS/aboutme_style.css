@@ -1,0 +1,137 @@
+/* Main information style */
+
+#info {
+    margin-left: 30px;
+    margin-top: 135px;
+}
+
+.main-info {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+/* Bio paragraph style */
+#about-info {
+    margin: 0;
+    padding: 0;
+}
+
+#about {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+/* Profile picture style */
+
+#image {
+    width: 70%;
+    margin-top: 135px;
+    margin-left: 40px;
+}
+
+/* Instagram and Youtube link style */
+
+#insta-head, #youtube-head {
+    font-size: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#instagram, #youtube {
+    margin-top: 50px;
+}
+
+#insta, #youtube-link {
+    color: black;
+}
+
+/* Edit button style */
+
+#button {
+    text-align: right;
+}
+
+/* Instagram images style */
+
+.insta-img {
+    width: 120px;
+}
+.insta-img, .youtube-img {
+    height: 120px;
+    display: inline;
+    margin: 5px;
+}
+
+.insta-img:hover, .youtube-img:hover {
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(156, 179, 230, 1);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(50, 52, 164, 1);
+    box-shadow: 0px 0px 5px 2px rgba(156, 179, 230, 1);
+}
+
+#insta-imgs, #youtube-imgs {
+    text-align: center;
+}
+
+
+
+#footer {
+    width:100%;
+    bottom:0;
+    left:0;
+    line-height: 1px;
+
+}
+
+/* Responsive styles */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+    #info {
+        margin-left: 0;
+        margin-top: 135px;
+    }
+
+    #about {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .main-info {
+        font-size: 20px;
+    }
+
+    #about-info {
+        font-size: 15px;
+        width: 100%;
+        display: block;
+    }
+
+    #image {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    #image {
+        float: none;
+        width: 50%;
+
+    }
+
+    .small-4 {
+        width: 100%;
+    }
+
+    #main-text{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .small-8 {
+        width: 100%;
+    }
+
+}

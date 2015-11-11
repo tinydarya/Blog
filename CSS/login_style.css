@@ -1,0 +1,111 @@
+/* Imports icon */
+@import url("fi/foundation-icons.css");
+
+/* Body style */
+body {
+    background-color: #f1f1f1;
+    font-family: 'Poiret One';
+}
+
+/* Login form style*/
+
+#form {
+    background-color: white;
+    padding: 20px;
+}
+
+#login {
+    width: 320px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* Lily Smith heading style */
+#home {
+    color: white;
+}
+
+#lily {
+    font-family: "Poiret One";
+    font-size: 20px;
+    background-color: #C8A2C9;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 30px 60px;
+    color: white;
+}
+
+/* Log in button style */
+
+#button {
+    background-color; #c0c0c0;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: 'Poiret One';
+    font-size: 15px;
+    display: inline-block;
+    height: 100%;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#button:hover {
+    background-color: #fcb2b5;
+    color: white;
+}
+
+#btn {
+    text-align: right;
+}
+
+/* Input fields style */
+
+input.input {
+    display: inline-block;
+    font-size: 20px;
+    background-color: #fbfbfb;
+}
+
+label {
+    font-size: 22px;
+}
+
+/* Text style */
+p {
+    cursor: pointer;
+}
+
+/* Bottom text style */
+
+.fi-arrow-left {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+span {
+    cursor: pointer;
+}
+
+#reminder {
+    margin: 0;
+}
+
+#paragraph {
+    margin-top: 20px;
+    color: #999;
+}
+
+/* Back to website link style*/
+
+#back {
+    color: #999;
+}
+
+
+
+.errormsg {
+    color:red;
+}

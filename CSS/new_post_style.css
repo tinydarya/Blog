@@ -1,0 +1,146 @@
+/* Body style */
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* Input form style */
+
+#input-form {
+    margin-top: 145px;
+    float: left;
+}
+
+#form {
+    margin: 0 20%;
+}
+
+label {
+    cursor: default;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#heading {
+    font-size: 25px;
+}
+
+/* Upload button style */
+
+#upload-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    font-family: 'Poiret One';
+    font-size: 15px;
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+#upload-button:hover {
+    background-color: #C8A2C9;
+    color: white;
+}
+
+/* Upload pictures style */
+
+#pics-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    font-family: 'Poiret One';
+    font-size: 15px;
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+#pics-button:hover {
+    background-color: #C8A2C9;
+    color: white;
+}
+
+/* Delete post style */
+
+#delete-btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    font-family: 'Poiret One';
+    font-size: 15px;
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    background-color: white;
+    margin: 10px 0;
+    width: 115px;
+}
+
+#delete-btn:hover {
+    background-color: #da374a;
+    color: white;
+}
+
+/* Save button style */
+
+#save-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    font-family: 'Poiret One';
+    font-size: 15px;
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    background-color: #c0c0c0;
+    margin-top: 30px;
+}
+
+#save-button:hover {
+    background-color: #fcb2b5;
+    color: white;
+}
+
+#container {
+    text-align: center;
+}
+
+/* Tags style */
+
+#tags-title {
+    font-size: 20px;
+}
+
+input[type="checkbox"] {
+    padding: 0;
+    margin: 0 10px 10px 0px;
+}
+
+#image-preview-container>.image-preview {
+    display: inline-block;
+    padding: 5px;
+    background-color: white;
+    margin: 5px;
+}
+
+/* Responsive styles */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+    #form {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+}

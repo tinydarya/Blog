@@ -1,0 +1,90 @@
+/* Browse div style */
+
+#browse {
+    background-color: #c2f0ed;
+    height: 400px;
+ }
+
+/* Title style */
+h1 {
+    font-family: "Poiret One";
+    margin-top: 160px;
+    font-size: 30px;
+}
+
+#or {
+    margin-top: 0;
+}
+
+/* All text style */
+
+#container {
+    margin-left: 30px;
+}
+
+.error-message {
+    color: #da374a;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+/* Search input style */
+
+#input {
+    width: 50%;
+    margin-left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+    display: inline-block;
+    height: 100%;
+    background-color: #fbfbfb;
+}
+
+
+#footer {
+    width:100%;
+    bottom:0;
+    left:0;
+    line-height: 1px;
+
+}
+
+
+/* Search button style */
+
+#button {
+    background-color: #fbfbfb;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    font-family: 'Poiret One';
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 5px;
+    height: 100%;
+}
+
+#button:hover {
+    color: white;
+    background-color: #C8A2C9;
+}
+
+#search {
+    height: 36px;
+}
+
+/* Tags */
+
+input[type="checkbox"] {
+    padding: 0;
+    margin: 0 10px 10px 0px;
+    display: inline;
+}
+
+/* Footer style */
+
+#footer {
+    position: absolute;
+}

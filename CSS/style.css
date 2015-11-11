@@ -1,0 +1,278 @@
+/* NAVIGATION STYLES*/
+
+/* Imports icons for main navigation */
+
+@import url("fi/foundation-icons.css");
+
+/* Imports font for the main name */
+
+@font-face {
+    font-family: "Anders";
+    src: url("../Assets/Anders.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Body styles */
+
+body{
+    background-color: white;
+    font-family: 'Poiret One';
+}
+
+/*Secondary navigation styles*/
+
+#navigation {
+    background-color: #c8a2c9;
+    width: 100%;
+    position: fixed;
+    top: -38px;
+    left: 0;
+    z-index: 100;
+    transition: top .3s linear;
+}
+
+#navigation.open {
+    top:0;
+}
+
+#secondary-navigation {
+    text-align: right;
+}
+
+.nav-item>a {
+    color: white;
+    text-decoration: none;
+}
+
+#navigation ul {
+    margin: 0;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0%;
+    padding: 1%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1.5em;
+}
+
+/* Main navigation styles */
+
+#name {
+    text-decoration: initial;
+    font-family: "Poiret One";
+    font-size: 25px;
+    display: inline;
+    line-height: 54px;
+    color: white;
+}
+
+#main-navigation ul {
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+#main-navigation>div {
+    padding-left:0;
+    padding-right:0;
+}
+
+.row {
+    max-width: 100%;
+}
+
+/* Navigation icons styles */
+
+.fi-list {
+    padding: 2%;
+}
+
+.fi-magnifying-glass {
+    padding: 7px;
+}
+
+.fi-pencil {
+    font-size: 35px;
+    padding: 7px;
+}
+
+.fi-lock {
+    font-size: 35px;
+    padding: 11px;
+}
+
+#icons {
+    text-align: right;
+}
+
+.nav-icon>a {
+    color: white;
+}
+
+.nav-icon {
+    display: inline;
+    font-size: 36px;
+    color: white;
+ }
+
+i:hover {
+    cursor: pointer;
+    color: #492549;
+}
+
+a:hover, a:focus {
+    color: #492549;
+}
+
+#top-name>a {
+    color: white;
+}
+
+
+/* Footer style */
+
+#text {
+    display: inline-block;
+}
+
+#footer {
+    text-align: center;
+}
+
+/* Edit button style*/
+
+.edit-btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    padding: 0px 9px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.edit-btn:hover, .edit-btn:focus {
+    background-color: #C8A2C9;
+    border-color: #C8A2C9;
+}
+
+.edit-btn:hover:after, .edit-btn:focus:after {
+    color: white;
+}
+
+.edit-btn:before {
+    background-image: url('../Assets/pencil-icon.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    margin: 2px 0 5px 0;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.edit-btn:after {
+    content: "edit";
+    display: inline-block;
+    font-family: "Poiret One";
+    color: black;
+    font-size: 17px;
+}
+
+.edit-btn:hover:before, .edit-btn:focus:before {
+    background-image: url('../Assets/pencil-icon-white.png');
+}
+
+
+.img-heart {
+    background-image: url("../Assets/heart.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: .875rem;
+    height: .75rem;
+    display: inline-block;
+}
+
+#footer:hover .img-heart {
+    -webkit-animation: heartbeat 1.25s infinite ease-out;
+    animation: heartbeat 1.25s infinite ease-out;
+}
+
+@-webkit-keyframes heartbeat {
+    0%  { -webkit-transform: scale(1);   }
+    15% { -webkit-transform: scale(1.5); }
+    30% { -webkit-transform: scale(1);   }
+    45% { -webkit-transform: scale(1.5); }
+    60% { -webkit-transform: scale(1);   }
+}
+@keyframes heartbeat {
+    0%  { transform: scale(1);   }
+    15% { transform: scale(1.5); }
+    30% { transform: scale(1);   }
+    45% { transform: scale(1.5); }
+    60% { transform: scale(1);   }
+}
+
+/* Certain post comments button style*/
+
+#post-com {
+    color: black;
+    font-family: 'Poiret One';
+    background-color: white;
+    padding: 0;
+    text-align: right;
+}
+
+#post-com:hover {
+    background-color: white;
+}
+
+#post-com:focus {
+    background-color: white;
+}
+
+/* Responsive styles */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+    .nav-item {
+        font-size: 2.5em;
+    }
+
+    #navigation{
+        top: -58px;
+    }
+
+    #name {
+        line-height: 110px;
+        font-size: 4.5em;
+    }
+
+    .nav-icon {
+        font-size: 5em;
+    }
+    .content {
+        margin-top: 58px !important;
+    }
+}
+
+
+/* ALL BLOG LINKS */
+
+.main-text>a {
+    color: #C8A2C9;
+}
+
+.main-text>a:hover {
+    color: #C8A2C9;
+    text-decoration: overline;
+}
